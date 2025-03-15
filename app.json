@@ -1,0 +1,25 @@
+{
+  "name": "AlwaysTypingUser",
+  "description": "A Python script that makes your Telegram account always appear as typing in groups.",
+  "repository": "https://github.com/STKR2",
+  "keywords": ["telegram", "pyrogram", "python", "always typing"],
+  "env": {
+    "API_ID": {
+      "description": "Your Telegram API ID",
+      "required": true
+    },
+    "API_HASH": {
+      "description": "Your Telegram API Hash",
+      "required": true
+    },
+    "SESSION_STRING": {
+      "description": "Your Pyrogram session string",
+      "required": true
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
