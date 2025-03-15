@@ -11,12 +11,22 @@
 
 ---
 
-## 🚀 Deployment  
+## 🚀 Deployment Options  
 
-### 🔧 **Requirements**  
+### ☁ **1-Click Deploy to Heroku**  
+Deploy instantly on **Heroku** by clicking the button below:  
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/YourRepo/AlwaysTypingUser)  
+
+---
+
+### 🖥 **Manual Deployment (VPS or Local Machine)**  
+
+#### 🔧 **Requirements**  
 - Python 3.8+  
-- `pip install -r requirements.txt`  
+- Install dependencies:  
+  ```sh
+  pip install -r requirements.txt
 
-### ▶ **Run the Script**  
-```sh
+## ▶ Run the Script
 python3 bot.py
